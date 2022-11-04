@@ -45,7 +45,7 @@ public class postmanEchoTest {
                 .get("/get?foo1=bar1&foo2=bar2")
                 .then()
                 .statusCode(200)
-                .body("args.foo1", equalTo("bar2"))
+                .body("args.foo2", equalTo("bar2"))
         ;
     }
 
