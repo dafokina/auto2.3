@@ -30,7 +30,7 @@ public class postmanEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Homework auto"))
+                .body("data", equalTo("Homework autotest"))
 
         ;
     }
